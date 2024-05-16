@@ -1,0 +1,27 @@
+{
+    "Title":"UnZip BoniOS",
+    "SubTitle":"t.me/boniosvn",
+    "Cancel":"Huỷ bỏ",
+    "Function":
+    [
+        {
+            "TextButton":"Library",
+            "Folder":"Library",
+            "linkurl":"https://bonios.github.io/Skin/65skinpack.zip"
+        },
+
+        {
+            "TextButton":"Documents",
+            "Folder":"Documents",
+            "linkurl":"https://bonios.github.io/Skin/65skinpack.zip"
+        },
+
+        {
+            "TextButton":"Restore",
+            "Folder":"Documents",
+            "linkurl":"https://bonioshax.vn/Mod/Restore-1.53.1.zip"
+        }
+
+    ]
+    
+}
