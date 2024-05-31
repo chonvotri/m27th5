@@ -55,9 +55,9 @@ apt-ftparchive packages ./Deb > ./Packages;
 bzip2 -c9k ./Packages > ./Packages.bz2;
 echo "------------------"
 echo "Đang tạo Release...."
-printf "Origin: BoniOs Repo 💮\nLabel: BoniOs Hack Repo 💮\nSuite: stable\nVersion: 1.0\nCodename: ios\nArchitecture: iphoneos-arm\nComponents: main\nDescription: Kho Lưu Trữ Của BoniOS \nMD5Sum:\n "$(cat ./Packages | md5sum | cut -d ' ' -f 1)" "$(stat ./Packages --printf="%s")" Packages\n "$(cat ./Packages.bz2 | md5sum | cut -d ' ' -f 1)" "$(stat ./Packages.bz2 --printf="%s")" Packages.bz2\n" >Release;
+printf "Origin: QUANGMINH Repo 💮\nLabel: QUANGMINH Hack Repo 💮\nSuite: stable\nVersion: 1.0\nCodename: ios\nArchitecture: iphoneos-arm\nComponents: main\nDescription: Kho Lưu Trữ Của QUANGMINH \nMD5Sum:\n "$(cat ./Packages | md5sum | cut -d ' ' -f 1)" "$(stat ./Packages --printf="%s")" Packages\n "$(cat ./Packages.bz2 | md5sum | cut -d ' ' -f 1)" "$(stat ./Packages.bz2 --printf="%s")" Packages.bz2\n" >Release;
 
 echo "------------------"
 echo "Xong !"
-echo "Created by BoniOS"
+echo "Created by QUANGMINH"
 exit 0;
